@@ -1,0 +1,47 @@
+.main {
+  display: grid;
+  grid-template-rows: auto 1fr 1fr;
+  height: 100vh;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  span {
+    display: inline-block;
+  }
+  h1 {
+    font-size: 48px;
+  }
+  &-text {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  &-links {
+    transform: rotate(-90deg);
+  }
+  &-links a {
+    font-size: 16px;
+    color: $gray;
+    text-decoration: none;
+    font-weight: 600;
+
+    &:hover {
+      color: $black;
+    }
+    &:first-child {
+      padding-right: 5px;
+      border-right: 2px solid $black;
+    }
+  }
+}
+
+.main-image {
+
+  img {
+    width: 100%;
+    margin-bottom: 100px;
+  }
+}

@@ -1,0 +1,17 @@
+@import '_mixins';
+@import '_variables';
+@import '_desktop.scss';
+@import '_responsive';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  width: 80vw;
+  margin: auto;
+}
+
+@import 'sections/main.scss';
+@import 'header/header.scss';

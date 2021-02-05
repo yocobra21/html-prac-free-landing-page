@@ -1,0 +1,12 @@
+.section-about {
+  background-color: $bc-gray;
+  display: flex;
+  justify-content: center;
+}
+
+.section-about-content {
+  text-align: center;
+  h2 {
+    font-size: 34px;
+  }
+}

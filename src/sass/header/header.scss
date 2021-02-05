@@ -1,0 +1,20 @@
+.header {
+  border-bottom: 1px solid $gray;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 33px 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: $gray;
+  font-size: 18px;
+  font-weight: 600;
+  &:hover {
+    color: $black;
+    text-decoration: none;
+  }
+}
