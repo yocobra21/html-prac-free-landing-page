@@ -1,7 +1,10 @@
 .main {
-  display: grid;
-  grid-template-rows: auto 1fr 1fr;
-  height: 100vh;
+  //
+  &-grid {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr 1fr;
+  }
 }
 
 .main-content {

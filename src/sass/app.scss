@@ -13,5 +13,9 @@ body {
   margin: auto;
 }
 
+@import 'header.scss';
 @import 'sections/main.scss';
-@import 'header/header.scss';
+@import 'sections/section-about.scss';
+@import 'sections/section-skills.scss';
+@import 'sections/section-portfolio.scss';
+@import 'footer.scss';

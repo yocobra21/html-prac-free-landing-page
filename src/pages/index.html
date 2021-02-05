@@ -7,27 +7,31 @@
     ></include>
   </head>
   <body>
-    <div class="container">
-      <div class="main">
-        <include src="src/templates/header.html"></include>
-        <div class="main-content">
-          <span
-            ><h1>Qwerty<br />Qwerty</h1></span
-          >
-          <span class="main-content-text"
-            >UX | UI designer 24 years old, Minsk</span
-          >
-          <span class="main-content-links">
-            <a href="">RU</a>
-            <a href="">ENG</a>
-          </span>
-        </div>
-        <div class="main-image">
-          <img src="img/1.png" alt="" />
+    <div class="main">
+      <div class="container">
+        <div class="main-grid">
+          <include src="src/templates/header.html"></include>
+          <div class="main-content">
+            <span
+              ><h1>Qwerty<br />Qwerty</h1></span
+            >
+            <span class="main-content-text"
+              >UX | UI designer 24 years old, Minsk</span
+            >
+            <span class="main-content-links">
+              <a href="">RU</a>
+              <a href="">ENG</a>
+            </span>
+          </div>
+          <div class="main-image">
+            <img src="img/1.png" alt="" />
+          </div>
         </div>
       </div>
+    </div>
 
-      <section class="section-about">
+    <section class="section-about">
+      <div class="container">
         <div class="section-about-content">
           <h2>About me</h2>
           <p>
@@ -42,9 +46,88 @@
             Ready to implement excellent projects with wonderful people.
           </p>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <include src="src/templates/footer.html"></include>
-    </div>
+    <section class="section-skills">
+      <div class="container">
+        <div class="skills-content">
+          <h2>Skills</h2>
+          <p>I work in such programs as</p>
+          <div class="skills-content-programms">
+            <div class="skills-content-programms-item">
+              <img src="img/ps.png" alt="" />
+              <p>
+                Adobe <br />
+                Photoshop
+              </p>
+              <div class="item-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+            </div>
+            <div class="skills-content-programms-item">
+              <img src="img/ai.png" alt="" />
+              <p>Adobe Illustrator</p>
+              <div class="item-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+            </div>
+            <div class="skills-content-programms-item">
+              <img src="img/ae.png" alt="" />
+              <p>Adobe After Effect</p>
+              <div class="item-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+            </div>
+            <div class="skills-content-programms-item">
+              <img src="img/figma.png" alt="" />
+              <p>figma</p>
+              <div class="item-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-portfolio">
+      <div class="container">
+        <div class="portfolio-content">
+          <h2>Portfolio</h2>
+          <div class="portfolio-item">
+            <img class="portfolio-item-image" src="img/p1.png" alt="">
+            <a href="" class="portfolio-item link">Online fashion store - Homepage</a>
+          </div>
+          <div class="portfolio-item">
+            <img class="portfolio-item-image" src="img/p2.png" alt="">
+            <a href="" class="portfolio-item link">Reebok Store - Concept</a>
+          </div>
+          <div class="portfolio-item">
+            <img class="portfolio-item-image" src="img/p3.png" alt="">
+            <a href="" class="portfolio-item link">Braun Landing Page - Concept</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <include src="src/templates/footer.html"></include>
   </body>
 </html>

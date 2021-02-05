@@ -1,12 +1,16 @@
 .section-about {
   background-color: $bc-gray;
-  display: flex;
-  justify-content: center;
 }
 
 .section-about-content {
   text-align: center;
+  padding: 120px 0;
   h2 {
     font-size: 34px;
+  }
+  p {
+    margin-bottom: 0;
+    margin-top: 30px;
+    font-size: 18px;
   }
 }

@@ -1,0 +1,29 @@
+.section-portfolio {
+  background-color: $bc-gray;
+
+}
+
+.portfolio-content {
+  padding-top: 112px;
+  text-align: center;
+  h2 {
+    font-size: 34px;
+    font-weight: 600;
+    margin-bottom: 47px;
+  }
+}
+
+.portfolio-item {
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+  a {
+    display: inline-block;
+    margin-top: 45px;
+    margin-bottom: 100px;
+
+    text-decoration: underline;
+    color: $black;
+  }
+}
